@@ -1,0 +1,5 @@
+autopep8==1.7.0
+lxml==4.9.1
+pycodestyle==2.9.1
+python-docx==0.8.11
+toml==0.10.2
