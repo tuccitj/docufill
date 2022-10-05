@@ -5,7 +5,7 @@ import json
 # set current_directory_path to current directory path
 
 current_directory_path = os.path.dirname(__file__)
-input_path = current_directory_path + '/input'
+input_path = current_directory_path + '/dictionary'
 templates_path = current_directory_path + '/templates'
 output_path = current_directory_path + '/output'
 
@@ -15,7 +15,7 @@ output_path = current_directory_path + '/output'
 def initialize_directory():
     # init list of paths to create
     paths_to_create = [
-        current_directory_path + '/input',
+        current_directory_path + '/dictionary',
         current_directory_path + '/templates',
         current_directory_path + '/output'
     ]
